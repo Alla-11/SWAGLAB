@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0362ed0-8ecf-40f5-b668-d1b7b7591342" name="Default Changelist" comment="" />
+    <list default="true" id="f0362ed0-8ecf-40f5-b668-d1b7b7591342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/utils/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/InventoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/LoginPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +24,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="27HLHqgv68kQ9uSg8wPtyXlcrEa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,8 +48,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.tms.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.SWAGLAB">
     <configuration name="SWAGLAB" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -60,6 +85,84 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="CarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SWAGLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tms.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tms.test.CarTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.compareCarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SWAGLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tms.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tms.test.CarTest" />
+      <option name="METHOD_NAME" value="compareCarTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest.loggerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SWAGLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tms.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tms.test.CarTest" />
+      <option name="METHOD_NAME" value="loggerTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryPageFilterTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SWAGLAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.tms.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.tms.test" />
+      <option name="MAIN_CLASS_NAME" value="org.tms.test.InventoryPageFilterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.InventoryPageFilterTest" />
+        <item itemvalue="TestNG.CarTest.loggerTest" />
+        <item itemvalue="TestNG.CarTest.compareCarTest" />
+        <item itemvalue="TestNG.CarTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -79,30 +182,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="203" y="134" width="901" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649521486997" />
-    <state x="1148" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1649189047045">
+    <state x="1075" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1651081851195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="1148" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1649189047045" />
+    <state x="1075" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1651081851195" />
+    <state x="807" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650909443320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="807" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1650909443320" />
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1649190593712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649190593712" />
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1649537977280">
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1649538205041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1649537977280" />
-    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1649537977280">
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1649538205041" />
+    <state x="559" y="110" key="Github.UntrackedFilesDialog" timestamp="1649538219713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1649537977280" />
-    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1649537977280">
+    <state x="559" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1649538219713" />
+    <state width="721" height="357" key="GridCell.Tab.0.bottom" timestamp="1651086203369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1649537977280" />
-    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1649537977280">
+    <state width="721" height="357" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
+    <state width="721" height="357" key="GridCell.Tab.0.center" timestamp="1651086203369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1649537977280" />
+    <state width="721" height="357" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
+    <state width="721" height="357" key="GridCell.Tab.0.left" timestamp="1651086203369">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="721" height="357" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
+    <state width="721" height="357" key="GridCell.Tab.0.right" timestamp="1651086203369">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="721" height="357" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
+    <state x="598" y="90" key="Maven.ArtifactSearchDialog" timestamp="1650909492528">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="90" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1650909492528" />
+    <state x="709" y="45" width="914" height="710" key="SettingsEditor" timestamp="1651081276864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="709" y="45" width="914" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651081276864" />
+    <state x="861" y="52" width="665" height="678" key="new project wizard" timestamp="1650907295303">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="861" y="52" width="665" height="678" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1650907295303" />
     <state x="535" y="283" key="run.anything.popup" timestamp="1649018327011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
