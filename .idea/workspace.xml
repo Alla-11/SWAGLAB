@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0362ed0-8ecf-40f5-b668-d1b7b7591342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/test/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/tms/utils/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/driver/DriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/InventoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/tms/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/tms/page/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +164,19 @@
       <option name="presentableId" value="Default" />
       <updated>1648971979354</updated>
     </task>
+    <task id="LOCAL-00001" summary="add log in page">
+      <created>1651087140805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651087140805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add log in page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log in page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="203" y="134" width="901" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649521486997">
@@ -194,6 +195,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649190593712" />
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1651087140239">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1651087140239" />
+    <state x="249" y="179" key="FileChooserDialogImpl" timestamp="1651515729650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="179" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1651515729650" />
     <state x="647" y="310" key="Github.ShareDialog" timestamp="1649538205041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,22 +211,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="559" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1649538219713" />
-    <state width="721" height="357" key="GridCell.Tab.0.bottom" timestamp="1651086203369">
+    <state width="1493" height="404" key="GridCell.Tab.0.bottom" timestamp="1651089740016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="357" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
-    <state width="721" height="357" key="GridCell.Tab.0.center" timestamp="1651086203369">
+    <state width="1493" height="404" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651089740016" />
+    <state width="1493" height="404" key="GridCell.Tab.0.center" timestamp="1651089740016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="357" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
-    <state width="721" height="357" key="GridCell.Tab.0.left" timestamp="1651086203369">
+    <state width="1493" height="404" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651089740016" />
+    <state width="1493" height="404" key="GridCell.Tab.0.left" timestamp="1651089740016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="357" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
-    <state width="721" height="357" key="GridCell.Tab.0.right" timestamp="1651086203369">
+    <state width="1493" height="404" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651089740016" />
+    <state width="1493" height="404" key="GridCell.Tab.0.right" timestamp="1651089740016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="721" height="357" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651086203369" />
+    <state width="1493" height="404" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651089740016" />
     <state x="598" y="90" key="Maven.ArtifactSearchDialog" timestamp="1650909492528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -226,6 +235,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="709" y="45" width="914" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651081276864" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651087203030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651087203030" />
     <state x="861" y="52" width="665" height="678" key="new project wizard" timestamp="1650907295303">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
